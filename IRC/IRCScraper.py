@@ -29,7 +29,7 @@ ircchannels = ['otc','dev']
 #Prevent errors straight up. Just dont allow anything that doesnt exist 
 availableyears = ['2011','2012','2013','2014','2015','2016','2017']
 
-print cmdargs[2]
+
 #if selected irc channel is valid, set it, otherwise terminate 
 if str(cmdargs[1]) in ircchannels:
 	scrape_channel =  str(cmdargs[1])
